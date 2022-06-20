@@ -1,0 +1,103 @@
+﻿<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8" />
+    <title>צור קשר</title>
+    <link rel="icon" type="image/jpg" href="framelogo.jpg">
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="author" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.1/build/pure-min.css"
+        integrity="sha384-oAOxQR6DkCoMliIh8yFnu25d7Eq/PHS21PClpwjOTeU2jRSq11vu66rf90/cZr47" crossorigin="anonymous">
+
+    <!--  <link href="styles/reset.css" rel="stylesheet" /> -->
+    <link href="styles/myStyle.css" rel="stylesheet" />
+
+    <!-- JS -->
+    <script src="jScripts/jquery-1.12.0.min.js"></script>
+
+</head>
+
+<body>
+    <header class="header">
+        <div>
+            <a href="index.html"> <img src="logo.JPG" id="logo" alt="לוגו" /> </a>
+        </div>
+        <nav class="mainNav" aria-label="תפריט ניווט">
+            <ul>
+
+                <li>
+                    <a class="notworking" href="#">איך לצלם</a>
+                    <ul id="Colum">
+                        <li><a class="notworking" href="#"> זוויות וחיתוכי צילום </a></li>
+                        <li><a class="notworking" href="#"> ציוד צילום </a> </li>
+                        <li><a class="notworking" href="#">תאורה</a> </li>
+                    </ul>
+                </li>
+                <li>
+                    <a class="notworking" href="#">איך להצטלם</a>
+
+                    <ul id="Colum">
+                        <li><a href="poses.html">פוזות ושפת גוף</a></li>
+                        <li><a href="clothes.html">לבוש והופעה</a> </li>
+                        <li><a class="notworking" href="#"> הבעות פנים </a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a class="notworking" href="#">איפה</a>
+                    <ul id="Colum">
+                        <li><a class="notworking" href="#">טבע</a></li>
+                        <li><a class="notworking" href="#"> רחוב </a> </li>
+                        <li><a class="notworking" href="#">סטודיו </a> </li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        </br>
+        <h1 id="cn"> צור קשר </h1>
+        * שדה חובה
+        <form id="formtext">
+            <input type="hidden" id="myEmail" name="name" value="fanusnadawo@gmail.com">
+            </br>
+            שם פרטי* </br>
+            <input type="text" id="firstName" placeholder="שם פרטי" required /> </br><br>
+            שם משפחה* </br>
+            <input type="text" id="flastName" placeholder="שם משפחה" required /> </br></br>
+            דואר אלקטרוני* </br>
+            <input type="email" id="email" placeholder="דואר אלקטרוני" required /> </br></br>
+            <fieldset>
+                <legend> סוג פנייה:*</legend> </br>
+                <input type="radio" id="radio1" name="radio" checked /> שאלה <br />
+                <input type="radio" id="radio2" name="radio" /> תיקון/הוספת מידע <br />
+            </fieldset>
+            </br>
+            :רשום את הודעתך </br>
+            <textarea id="userText" placeholder="הזן תוכן"></textarea> </br>
+            <input type="submit" id="sendF" value=" שליחה" /> </br>
+            <div id="feedback"></div>
+        </form>
+        </br>
+        </div>
+        <footer id="fo">
+            <ul>
+                <li> <a href="about.html" :>אודות</a> </li>
+                <li> <a href="siteMap.html">מפת האתר</a> </li>
+                <li> <a href="contactUs.html">צור קשר</a> </li>
+
+            </ul>
+            <a href="index.html"> <img src="logo.JPG" id="logo2" alt="לוגו" /> </a>
+            <img id="cr" src="fanusrinat.jpg" alt="" />
+            <p>כל הזכויות שמורות לפאנוס ורינת</p>
+        </footer>
+    </main>
+
+</body>
+
+</html>

@@ -1,0 +1,309 @@
+﻿
+@font-face {
+	font-family: 'Conv_yehudaclm-light-webfont';
+	src: url('fonts/yehudaclm-light-webfont.eot');
+	src: local('☺'), url('fonts/yehudaclm-light-webfont.woff') format('woff'), url('fonts/yehudaclm-light-webfont.ttf') format('truetype'), url('fonts/yehudaclm-light-webfont.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.notworking {
+
+cursor: not-allowed;
+color:grey;
+}
+
+#serious2 {
+position: relative;
+display: block;
+box-sizing: border-box;
+
+}
+
+
+.clothclass {
+font-size: 70px;
+
+}
+
+#line {
+    width: 1000px;
+    display: block;
+margin-right: auto; 
+margin-left: auto;
+
+}
+
+#pose {
+font-size: 70px;
+text-align: center;
+}
+
+.photos{
+    height: 800px;
+    width:550px; 
+    float: left;
+    
+}
+
+#cloth {
+font-size: 70px;
+text-align: center;
+}
+
+ul.breadcrumb li:after {
+content: ">";
+}
+
+ul.breadcrumb {
+padding:10px 10px; 
+list-style: none;
+
+}
+
+ul.breadcrumb li {
+display: inline;
+font-size: 15px;
+}
+
+
+#bw {
+height: 800px;
+width: 600px;
+float: left;  
+}
+
+
+#two{
+   display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    height: 500px;
+}
+#nature {
+/* display: inline-block; */
+/* width: 200px; */
+/* margin: 60px; */
+/* flex-grow: 1; */
+}
+#light {
+    /* display: inline-block; */
+    /* width: 200px; */
+    /* margin: 60px; */
+    /* flex-grow: 1; */
+}
+
+#look{
+    /* display: inline-block; */
+    /* width: 200px;  */
+    /* margin: 60px; */
+    /* height: 300px;  */
+    /* flex-grow: 1; */
+   
+}
+
+#cr {
+    width: 20px;
+    height: 20px;
+}
+
+.page{
+    /* width: 100%; */
+    /* display: block; */
+  /* margin-right: auto;  */
+  /* margin-left: auto; */
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center ;
+  width: 33%;
+  
+}
+.page p{
+    width: 300px; 
+} 
+
+#map
+{
+    font-size: 80px;
+     text-align: center;
+}
+
+#odot{
+font-size: 80px;
+text-align: center;
+}
+
+
+#arrow{
+ height: 200px;
+width: 200px;
+display: block;
+margin-right: auto;
+margin-left: auto;
+}
+
+body {
+direction: rtl;
+font-family: 'Conv_yehudaclm-light-webfont' ;
+width: 1280px;
+margin: auto;
+
+}
+
+main {
+ height: auto;
+}
+
+#one {
+font-size: 35px; 
+
+}
+
+img {
+    height: 300px;
+    width: 300px;
+
+}
+ #logo {
+    height: 180px;
+    width: 180px; 
+}
+
+h3 {
+    text-align: center;
+    font-size: 45px;
+}
+
+.mainNav {
+    width: 1280px;
+    height: 30px;
+    align-items: center;
+    background-color: black;
+    direction: rtl;
+    padding-top: 12px;
+    text-align: center;ֿ
+    margin:auto; 
+    font-family: 'Conv_yehudaclm-light-webfont';
+}
+.mainNav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;  
+}
+
+.mainNav li  {
+display: inline-block;
+}
+
+.mainNav ul li a {
+    display: block;
+    color: rgb(0, 0, 0);
+    width: 150px;
+    height: 30px;
+    
+    text-decoration: none;
+    text-align: center;
+    background-color:black;
+    color: white;
+
+}
+
+#us {
+    height: 400px;
+    width: 350px;
+}
+
+#h
+{
+height: 100px;  
+width:150px; 
+}
+
+#Colum li{
+    display: block !important;
+    float: none;
+}
+    
+.mainNav ul li a:hover{
+    background-color: white;
+    color:black; 
+    
+    }
+    
+.mainNav ul li ul {
+    display: none;
+    position: absolute;
+}
+    
+.mainNav ul li:hover ul {
+    display:block;
+    width: 150;
+}
+
+h1 {
+font-size: 110px;
+
+}
+
+
+#fo
+{
+    width: 100%;
+    height: 30px;
+    align-items: center;
+    background-color: black;
+    direction: rtl;
+    padding-top: 12px;
+    text-align: center;ֿ
+    margin:auto; 
+    font-family: 'Conv_yehudaclm-light-webfont'; 
+}
+#fo ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;  
+}
+
+#cn {
+font-size: 70px;
+text-align: center;
+}
+
+#formtext {
+    font-size: 20px;  
+}
+
+#fo li  {
+display: inline-block;
+
+}
+
+#fo ul li a {
+    display: block;
+    color: rgb(0, 0, 0);
+    width: 150px;   
+    height: 30px;
+    
+    text-decoration: none;
+    text-align: center;
+    background-color:black;
+    color: white;
+
+
+}
+
+h2 
+
+{
+font-size: 50px; 
+
+}
+
+#logo2 {
+ width: 100px;
+ height: 100px;
+ margin: auto;
+} 
+
+
